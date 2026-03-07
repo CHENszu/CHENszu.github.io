@@ -1,8 +1,8 @@
 # hugo.yaml
 # 站点基础信息
 baseURL: "https://chenszu.github.io/" # 你的博客地址（必填）
-title: "鼠鼠的笔记"                           # 浏览器标签页显示的标题
-copyright: "鼠鼠的笔记"                       # 页脚版权信息
+title: "Pythonpp的笔记"                           # 浏览器标签页显示的标题
+copyright: "Pythonpp的笔记"                       # 页脚版权信息
 theme: "hugo-theme-stack"                  # 使用的主题名称
 
 # 语言与地区

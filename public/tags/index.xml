@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Tags on 鼠鼠的笔记</title>
-        <link>https://chenszu.github.io/tags/</link>
-        <description>Recent content in Tags on 鼠鼠的笔记</description>
+        <title>Tags on Pythonpp的笔记</title>
+        <link>http://localhost:62626/tags/</link>
+        <description>Recent content in Tags on Pythonpp的笔记</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>鼠鼠的笔记</copyright>
-        <lastBuildDate>Sat, 07 Mar 2026 16:09:41 +0800</lastBuildDate><atom:link href="https://chenszu.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>Pythonpp的笔记</copyright>
+        <lastBuildDate>Sat, 07 Mar 2026 16:09:41 +0800</lastBuildDate><atom:link href="http://localhost:62626/tags/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>Gallery</title>
-            <link>https://chenszu.github.io/tags/gallery/</link>
+            <link>http://localhost:62626/tags/gallery/</link>
             <pubDate>Mon, 26 Jan 2026 00:00:00 +0800</pubDate>
-            <guid>https://chenszu.github.io/tags/gallery/</guid>
+            <guid>http://localhost:62626/tags/gallery/</guid>
             <description></description>
         </item><item>
             <title>Photoswipe</title>
-            <link>https://chenszu.github.io/tags/photoswipe/</link>
+            <link>http://localhost:62626/tags/photoswipe/</link>
             <pubDate>Mon, 26 Jan 2026 00:00:00 +0800</pubDate>
-            <guid>https://chenszu.github.io/tags/photoswipe/</guid>
+            <guid>http://localhost:62626/tags/photoswipe/</guid>
             <description></description>
         </item><item>
             <title>隐私</title>
-            <link>https://chenszu.github.io/tags/%E9%9A%90%E7%A7%81/</link>
+            <link>http://localhost:62626/tags/%E9%9A%90%E7%A7%81/</link>
             <pubDate>Mon, 26 Jan 2026 00:00:00 +0800</pubDate>
-            <guid>https://chenszu.github.io/tags/%E9%9A%90%E7%A7%81/</guid>
+            <guid>http://localhost:62626/tags/%E9%9A%90%E7%A7%81/</guid>
             <description></description>
         </item><item>
             <title>Css</title>
-            <link>https://chenszu.github.io/tags/css/</link>
+            <link>http://localhost:62626/tags/css/</link>
             <pubDate>Sun, 25 Jan 2026 00:00:00 +0800</pubDate>
-            <guid>https://chenszu.github.io/tags/css/</guid>
+            <guid>http://localhost:62626/tags/css/</guid>
             <description></description>
         </item><item>
             <title>Html</title>
-            <link>https://chenszu.github.io/tags/html/</link>
+            <link>http://localhost:62626/tags/html/</link>
             <pubDate>Sun, 25 Jan 2026 00:00:00 +0800</pubDate>
-            <guid>https://chenszu.github.io/tags/html/</guid>
+            <guid>http://localhost:62626/tags/html/</guid>
             <description></description>
         </item><item>
             <title>Markdown</title>
-            <link>https://chenszu.github.io/tags/markdown/</link>
+            <link>http://localhost:62626/tags/markdown/</link>
             <pubDate>Sun, 25 Jan 2026 00:00:00 +0800</pubDate>
-            <guid>https://chenszu.github.io/tags/markdown/</guid>
+            <guid>http://localhost:62626/tags/markdown/</guid>
             <description></description>
         </item><item>
             <title>Themes</title>
-            <link>https://chenszu.github.io/tags/themes/</link>
+            <link>http://localhost:62626/tags/themes/</link>
             <pubDate>Sun, 25 Jan 2026 00:00:00 +0800</pubDate>
-            <guid>https://chenszu.github.io/tags/themes/</guid>
+            <guid>http://localhost:62626/tags/themes/</guid>
             <description></description>
         </item><item>
             <title>Diagrams</title>
-            <link>https://chenszu.github.io/tags/diagrams/</link>
+            <link>http://localhost:62626/tags/diagrams/</link>
             <pubDate>Tue, 23 Dec 2025 00:00:00 +0800</pubDate>
-            <guid>https://chenszu.github.io/tags/diagrams/</guid>
+            <guid>http://localhost:62626/tags/diagrams/</guid>
             <description></description>
         </item><item>
             <title>Mermaid</title>
-            <link>https://chenszu.github.io/tags/mermaid/</link>
+            <link>http://localhost:62626/tags/mermaid/</link>
             <pubDate>Tue, 23 Dec 2025 00:00:00 +0800</pubDate>
-            <guid>https://chenszu.github.io/tags/mermaid/</guid>
+            <guid>http://localhost:62626/tags/mermaid/</guid>
             <description></description>
         </item></channel>
 </rss>
