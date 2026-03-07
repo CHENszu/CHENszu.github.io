@@ -1,0 +1,53 @@
+# menu.yaml
+# --- 主导航菜单 ---
+main:
+  - identifier: Home     # 唯一标识符
+    name: 主页           # 显示的文字
+    url: /               # 跳转链接 (内部链接以 / 开头)
+    weight: 1            # 排序权重 (数字越小越靠前)
+    params:
+      icon: home         # 图标名称 (对应 assets/icons/home.svg)
+
+  - identifier: Search
+    name: 搜索
+    url: /search/
+    weight: 3
+    params:
+      icon: search
+
+  - identifier: Archives
+    name: 归档
+    url: /archives/
+    weight: 2
+    params:
+      icon: archives
+
+  - identifier: About
+    name: 关于
+    url: /about/
+    weight: 4
+    params:
+      icon: user
+
+  - identifier: Links
+    name: 友链
+    url: /links/
+    weight: 5
+    params:
+      icon: link
+
+# --- 社交链接 ---
+social:
+  - identifier: github
+    name: GitHub
+    url: https://github.com/bookyzhou  # 外部链接
+    weight: 1
+    params:
+      icon: brand-github
+
+  - identifier: rss
+    name: RSS
+    url: /index.xml      # RSS 订阅地址
+    weight: 2
+    params:
+      icon: rss

@@ -1,0 +1,61 @@
+# params.yaml
+# --- 核心内容配置 ---
+mainSections:
+  - post           # 首页列表中显示哪个目录下的内容（通常是 post）
+featuredImageField: image # 文章封面图片的 Front Matter 字段名
+rssFullContent: true      # RSS 是否输出全文（建议开启，方便读者订阅）
+favicon: /favicon.png     # 网站图标 (需存放在 static/favicon.png)
+
+# --- 页脚信息 ---
+footer:
+  since: 2026      # 建站年份
+  customText: ""   # 自定义页脚文字
+
+# --- 日期格式化 ---
+dateFormat:
+  published: "2006-01-02"      # 发布日期格式 (例如 2024-01-28)
+  lastUpdated: "2006-01-02 15:04" # 更新日期格式
+
+# --- 侧边栏 ---
+sidebar:
+  subtitle: "Stay Hungry, Stay Foolish" # 头像下方的副标题
+  avatar:
+    enabled: true
+    local: true      # 使用本地图片/使用外链
+    src: /img/avatar.png # 头像路径 (需存放在 static/img/avatar.png)
+
+# --- 文章页面 ---
+article:
+  math: false          # 是否启用数学公式 (KaTeX/MathJax)
+  toc: true            # 是否显示目录
+  readingTime: true    # 显示预计阅读时间
+  license:
+    enabled: true
+    default: "CC BY-NC-SA 4.0" # 默认版权协议
+
+# --- 侧边栏小部件 ---
+widgets:
+  homepage:            # 首页显示的部件
+    - type: search     # 搜索框
+    - type: archives   # 归档
+      params:
+        limit: 5
+    - type: categories # 分类
+      params:
+        limit: 10
+    - type: tag-cloud  # 标签云
+      params:
+        limit: 10
+  page:                # 文章页显示的部件
+    - type: toc        # 目录 (Table of Contents)
+
+# --- 个性化设置 ---
+colorScheme:
+  toggle: true     # 显示深色/浅色模式切换按钮
+  default: auto    # 默认模式 (auto/light/dark)
+
+imageProcessing:
+  cover:
+    enabled: true  # 启用封面图自动处理
+  content:
+    enabled: true  # 启用正文图片自动处理

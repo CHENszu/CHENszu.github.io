@@ -1,0 +1,66 @@
+# hugo.yaml
+# 站点基础信息
+baseURL: "https://chenszu.github.io/" # 你的博客地址（必填）
+title: "My Blog"                           # 浏览器标签页显示的标题
+copyright: "My Blog"                       # 页脚版权信息
+theme: "hugo-theme-stack"                  # 使用的主题名称
+
+# 语言与地区
+languageCode: "zh-cn"           # 语言代码，影响 RSS 和浏览器识别
+DefaultContentLanguage: "zh-cn" # 默认内容语言
+hasCJKLanguage: true            # 开启中日韩语言支持（准确统计字数）
+timeZone: "Asia/Shanghai"       # 设置时区
+
+# 小提示：Hugo 默认不会发布“未来时间”的文章。
+# 如果你的时区设置不正确，可能会导致刚发布的文章无法显示。
+
+# 分页设置
+pagination:
+  pagerSize: 5 # 每页显示的文章数量
+
+# 链接结构
+# 决定了文章页面的 URL 格式。推荐使用 :slug，既美观又利于 SEO。
+permalinks:
+  post: /p/:slug/ # 例如：https://site.com/p/my-first-post/
+  page: /:slug/   # 例如：https://site.com/about/
+
+# 相关文章推荐
+related:
+  includeNewer: true # 允许推荐更新的文章
+  threshold: 60      # 关联度阈值（0-100），越低推荐越宽泛
+  toLower: false     # 关键词大小写敏感
+  indices:
+    - name: tags
+      weight: 100 # 标签权重
+    - name: categories
+      weight: 200 # 分类权重
+
+# Markdown 渲染引擎配置
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # 允许在 Markdown 中直接写 HTML
+    extensions:
+      passthrough:
+        enable: true # 启用数学公式支持 (LaTeX)
+        delimiters:
+          block:
+            - ["\\[", "\\]"]
+            - ["$", "$"]
+          inline:
+            - ["\\(", "\\)"]
+
+  # 目录
+  tableOfContents:
+    startLevel: 2 # 从 H2 开始生成目录
+    endLevel: 4   # 到 H4 结束
+    ordered: true # 使用有序列表 (1. 2. 3.)
+
+  # 代码高亮
+  highlight:
+    noClasses: false       # 使用内联样式
+    codeFences: true       # 支持 ``` 语法
+    guessSyntax: true      # 自动检测语言
+    lineNos: true          # 显示行号
+    lineNumbersInTable: true # 复制时忽略行号
+    tabWidth: 4            # Tab 缩进宽度
