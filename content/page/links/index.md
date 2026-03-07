@@ -5,8 +5,11 @@ links:
   - title: BookyZhou
     description: 计算机大佬，恋爱滴滴。
     website: https://github.com/bookyzhou
-    image: zyh.jpg
-
+    image: pic/zyh.jpg
+  - title: JiayaoLi
+    description: 运动大佬，马拉松爱好者。
+    website: https://github.com/codingbodies
+    image: pic/ljy.jpg
 comments: false
 readingTime: false
 wordCount: false
