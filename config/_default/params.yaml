@@ -26,6 +26,7 @@ article:
   math: false          # 是否启用数学公式 (KaTeX/MathJax)
   toc: true            # 是否显示目录
   readingTime: true    # 显示预计阅读时间
+  wordCount: true      # 显示字数统计
   license:
     enabled: true
     default: "CC BY-NC-SA 4.0" # 默认版权协议

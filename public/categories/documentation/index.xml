@@ -5,8 +5,7 @@
         <description>Recent content in 文档 on My Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>My Blog</copyright>
-        <lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/documentation/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>My Blog</copyright><atom:link href="http://localhost:1313/categories/documentation/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>短代码</title>
             <link>http://localhost:1313/p/%E7%9F%AD%E4%BB%A3%E7%A0%81/</link>
             <pubDate>Mon, 26 Jan 2026 00:00:00 +0800</pubDate>
