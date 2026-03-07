@@ -1,8 +1,13 @@
 darkMode: "深色模式"
 lightMode: "浅色模式"
 toggleMenu: "切换菜单"
+
 article:
-  wordCount: "共 {{ .Count }} 字"
+  publishedTime: "发布于"
+  lastUpdatedOn: "更新于"
+  wordCount: "字数: {{ .Count }} 字"
+  readingTime: "阅读时长: {{ .Count }} 分钟"
+
 search:
   title: "搜索"
   placeholder: "输入关键词..."

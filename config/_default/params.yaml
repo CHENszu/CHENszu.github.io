@@ -18,7 +18,7 @@ dateFormat:
 
 # --- 侧边栏 ---
 sidebar:
-  subtitle: "Stay Hungry, Stay Foolish" # 头像下方的副标题
+  subtitle: "小v小v，我要吃附近最好吃的外卖！" # 头像下方的副标题
   avatar: img/avatar.png # 头像路径 (需存放在 assets/img/avatar.png)
 
 # --- 文章页面 ---
