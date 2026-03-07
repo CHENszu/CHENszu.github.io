@@ -3,3 +3,7 @@ lightMode: "浅色模式"
 toggleMenu: "切换菜单"
 article:
   wordCount: "共 {{ .Count }} 字"
+search:
+  title: "搜索"
+  placeholder: "输入关键词..."
+  resultTitle: "#PAGES_COUNT 个结果 （用时 #TIME_SECONDS 秒）"

@@ -46,7 +46,7 @@
     })();
 </script>
 <div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
-    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
         <span class="hamburger-box">
             <span class="hamburger-inner"></span>
         </span>
@@ -179,24 +179,6 @@
         
         
         <li >
-            <a href='/archives/' >
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <rect x="3" y="4" width="18" height="4" rx="2" />
-  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-  <line x1="10" y1="12" x2="14" y2="12" />
-</svg>
-
-
-
-                
-                <span>归档</span>
-            </a>
-        </li>
-        
-        
-        <li >
             <a href='/search/' >
                 
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -214,18 +196,19 @@
         
         
         <li >
-            <a href='/about/' >
+            <a href='/archives/' >
                 
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="7" r="4" />
-  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
 </svg>
 
 
 
                 
-                <span>关于</span>
+                <span>文章</span>
             </a>
         </li>
         
@@ -243,6 +226,23 @@
 
                 
                 <span>友链</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
             </a>
         </li>
         
@@ -267,7 +267,7 @@
 
 
 
-                        <span></span>
+                        <span id="dark-mode-text">深色模式</span>
                     </li>
                 
             </ol>
@@ -505,7 +505,30 @@
         </div>
         
 <script type="text/javascript" src="/ts/main.a3c3dc838980b01df571d67efcbfb7de34cd282a169d5874b61d9e4571ee5591.js" defer></script>
+<script>
+    (function() {
+        const darkModeText = document.getElementById('dark-mode-text');
+        if (darkModeText) {
+            const updateText = (scheme) => {
+                if (scheme === 'dark') {
+                    darkModeText.textContent = '浅色模式';
+                } else {
+                    darkModeText.textContent = '深色模式';
+                }
+            };
 
+            window.addEventListener('onColorSchemeChange', (e) => {
+                updateText(e.detail);
+            });
+
+            
+            const currentScheme = document.documentElement.dataset.scheme;
+            if (currentScheme) {
+                updateText(currentScheme);
+            }
+        }
+    })();
+</script>
 
     </body>
 </html>
