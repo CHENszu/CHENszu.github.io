@@ -1,33 +1,20 @@
 ---
-title: "链接"
+title: "好友链接"
 slug: links
 links:
-  - title: GitHub
-    description: GitHub 是世界上最大的软件开发平台。
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript 是 JavaScript 的一个超集，它可以编译成纯 JavaScript。
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
+  - title: BookyZhou
+    description: 计算机大佬，恋爱滴滴。
+    website: https://github.com/bookyzhou
+    image: zyh.jpg
 
 comments: false
+readingTime: false
+wordCount: false
+license: false
+showLastUpdated: false
 ---
 
-要使用此功能，请在 frontmatter 中添加 `links` 部分。
-
-此页面的 frontmatter：
 
 ```yaml
-links:
-  - title: GitHub
-    description: GitHub 是世界上最大的软件开发平台。
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript 是 JavaScript 的一个超集，它可以编译成纯 JavaScript。
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
+alias sudo='echo "求求你了，给我权限嘛～"; '
 ```
-
-`image` 字段支持本地和外部图像。
