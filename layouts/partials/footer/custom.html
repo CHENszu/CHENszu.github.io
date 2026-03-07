@@ -1,0 +1,24 @@
+<script>
+    (function() {
+        const darkModeText = document.getElementById('dark-mode-text');
+        if (darkModeText) {
+            const updateText = (scheme) => {
+                if (scheme === 'dark') {
+                    darkModeText.textContent = '{{ T "lightMode" | default "浅色模式" }}';
+                } else {
+                    darkModeText.textContent = '{{ T "darkMode" | default "深色模式" }}';
+                }
+            };
+
+            window.addEventListener('onColorSchemeChange', (e) => {
+                updateText(e.detail);
+            });
+
+            // Initialize text based on current scheme
+            const currentScheme = document.documentElement.dataset.scheme;
+            if (currentScheme) {
+                updateText(currentScheme);
+            }
+        }
+    })();
+</script>

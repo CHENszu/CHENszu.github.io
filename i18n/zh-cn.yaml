@@ -1,2 +1,5 @@
+darkMode: "深色模式"
+lightMode: "浅色模式"
+toggleMenu: "切换菜单"
 article:
   wordCount: "共 {{ .Count }} 字"
