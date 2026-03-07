@@ -4,7 +4,7 @@ mainSections:
   - post           # 首页列表中显示哪个目录下的内容（通常是 post）
 featuredImageField: image # 文章封面图片的 Front Matter 字段名
 rssFullContent: true      # RSS 是否输出全文（建议开启，方便读者订阅）
-favicon: /favicon.png     # 网站图标 (需存放在 static/favicon.png)
+favicon: favicon.png     # 网站图标 (需存放在 assets/favicon.png)
 
 # --- 页脚信息 ---
 footer:
@@ -19,10 +19,7 @@ dateFormat:
 # --- 侧边栏 ---
 sidebar:
   subtitle: "Stay Hungry, Stay Foolish" # 头像下方的副标题
-  avatar:
-    enabled: true
-    local: true      # 使用本地图片/使用外链
-    src: /img/avatar.png # 头像路径 (需存放在 static/img/avatar.png)
+  avatar: img/avatar.png # 头像路径 (需存放在 assets/img/avatar.png)
 
 # --- 文章页面 ---
 article:
