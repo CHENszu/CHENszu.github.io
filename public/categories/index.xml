@@ -7,10 +7,10 @@
         <language>zh-cn</language>
         <copyright>Pythonpp的笔记</copyright>
         <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-            <title>Tech</title>
-            <link>http://localhost:1313/categories/tech/</link>
+            <title>工作必备</title>
+            <link>http://localhost:1313/categories/%E5%B7%A5%E4%BD%9C%E5%BF%85%E5%A4%87/</link>
             <pubDate>Sun, 08 Mar 2026 00:00:00 +0800</pubDate>
-            <guid>http://localhost:1313/categories/tech/</guid>
+            <guid>http://localhost:1313/categories/%E5%B7%A5%E4%BD%9C%E5%BF%85%E5%A4%87/</guid>
             <description></description>
         </item><item>
             <title>Syntax</title>
@@ -25,10 +25,22 @@
             <guid>http://localhost:1313/categories/themes/</guid>
             <description></description>
         </item><item>
+            <title>Learning</title>
+            <link>http://localhost:1313/categories/learning/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/categories/learning/</guid>
+            <description></description>
+        </item><item>
+            <title>Tech</title>
+            <link>http://localhost:1313/categories/tech/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/categories/tech/</guid>
+            <description></description>
+        </item><item>
             <title>文档</title>
             <link>http://localhost:1313/categories/documentation/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
             <guid>http://localhost:1313/categories/documentation/</guid>
-            <description>&lt;img src=&#34;http://localhost:1313/&#34; alt=&#34;Featured image of post 文档&#34; /&gt;</description>
+            <description></description>
         </item></channel>
 </rss>

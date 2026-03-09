@@ -221,4 +221,4 @@ git reset 和 git restore 都是用于撤销更改的命令，但它们的使用
 + git reset 是版本库级别的操作，它会影响整个版本库的历史记录。  
 + 想撤销「文件的修改（工作区 / 暂存区）」→ 用 git restore；
 + git restore 是文件级别的操作，它只影响指定的文件。  
-+ 想回滚「分支版本、撤销 commit」→ 用 git reset；
++ 想回滚「分支版本、撤销 commit」→ 用 git reset。
