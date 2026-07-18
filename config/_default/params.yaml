@@ -68,12 +68,12 @@ comments:
     repo: "CHENszu/CHENszu.github.io"             # 填入你的仓库，例如 "chenszu/myblog"
     repoID: "R_kgDORgl9Mw"                           # 你的仓库 ID (在 giscus 官网获取)
     category: "Announcements"            # 讨论分类 (在 giscus 官网获取)
-    categoryID: "DIC_kwDORgl9M84Cllc_"                       # 分类 ID (在 giscus 官网获取)
-    mapping: "title"
-    strict: 1
+    categoryID: "DIC_kwDORgl9M84DBccn"                       # 分类 ID (在 giscus 官网获取)
+    mapping: "pathname"
+    strict: 0
     reactionsEnabled: 1
     emitMetadata: 0
-    inputPosition: "top"
+    inputPosition: "bottom"
     lightTheme: "light"
     darkTheme: "dark_dimmed"
     lang: "zh-CN"
