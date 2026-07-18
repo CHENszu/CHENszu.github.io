@@ -76,4 +76,5 @@ comments:
     emitMetadata: 0
     inputPosition: "top"
     lang: "zh-CN"
+    strict: 0
     loading: "lazy"
