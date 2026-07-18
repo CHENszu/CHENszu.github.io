@@ -22,3 +22,13 @@
         }
     })();
 </script>
+
+<!-- 引入不蒜子访问统计 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!-- 修复不蒜子初始化样式（隐藏初始状态避免闪烁，修改为不蒜子默认提供的 ID，利用其内置逻辑加载数据） -->
+<style>
+  #busuanzi_container_site_pv, #busuanzi_container_site_uv {
+    display: none;
+  }
+</style>

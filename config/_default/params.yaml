@@ -9,7 +9,7 @@ favicon: favicon.png     # 网站图标 (需存放在 assets/favicon.png)
 # --- 页脚信息 ---
 footer:
   since: 2026      # 建站年份
-  customText: ""   # 自定义页脚文字
+  customText: "<span id=\"busuanzi_container_site_pv\">本站总访问量 <span id=\"busuanzi_value_site_pv\"></span> 次</span><br><span id=\"busuanzi_container_site_uv\">本站总访客数 <span id=\"busuanzi_value_site_uv\"></span> 人</span>"
 
 # --- 日期格式化 ---
 dateFormat:
@@ -57,3 +57,23 @@ imageProcessing:
     enabled: true  # 启用封面图自动处理
   content:
     enabled: true  # 启用正文图片自动处理
+
+# --- 评论系统 ---
+comments:
+  enabled: true
+  provider: "giscus"  # 推荐使用 giscus，基于 GitHub Discussions，免费且无广告
+
+  # Giscus 配置（请前往 https://giscus.app/zh-CN 获取以下对应的值）
+  giscus:
+    repo: "CHENszu/CHENszu.github.io"             # 填入你的仓库，例如 "chenszu/myblog"
+    repoID: "R_kgDORgl9Mw"                           # 你的仓库 ID (在 giscus 官网获取)
+    category: "Announcements"            # 讨论分类 (在 giscus 官网获取)
+    categoryID: "DIC_kwDORgl9M84Cllc_"                       # 分类 ID (在 giscus 官网获取)
+    mapping: "pathname"
+    lightTheme: "light"
+    darkTheme: "dark_dimmed"
+    reactionsEnabled: 1
+    emitMetadata: 0
+    inputPosition: "top"
+    lang: "zh-CN"
+    loading: "lazy"
