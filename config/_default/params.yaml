@@ -70,11 +70,11 @@ comments:
     category: "Announcements"            # 讨论分类 (在 giscus 官网获取)
     categoryID: "DIC_kwDORgl9M84Cllc_"                       # 分类 ID (在 giscus 官网获取)
     mapping: "title"
-    lightTheme: "light"
-    darkTheme: "dark_dimmed"
+    strict: 1
     reactionsEnabled: 1
     emitMetadata: 0
     inputPosition: "top"
+    lightTheme: "light"
+    darkTheme: "dark_dimmed"
     lang: "zh-CN"
-    strict: 0
     loading: "lazy"
