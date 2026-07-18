@@ -69,7 +69,7 @@ comments:
     repoID: "R_kgDORgl9Mw"                           # 你的仓库 ID (在 giscus 官网获取)
     category: "Announcements"            # 讨论分类 (在 giscus 官网获取)
     categoryID: "DIC_kwDORgl9M84Cllc_"                       # 分类 ID (在 giscus 官网获取)
-    mapping: "pathname"
+    mapping: "title"
     lightTheme: "light"
     darkTheme: "dark_dimmed"
     reactionsEnabled: 1
